@@ -1,0 +1,9 @@
+app:
+  name: "ai-production-ml-system"
+  env: "dev"
+
+logging:
+  level: "INFO"
+
+serving:
+  model_path: "artifacts/model.pkl"
